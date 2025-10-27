@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    font-family: Arial;
+     border:border-box;
+}
+
+.navbar{
+    height:60px;
+    background-color: black;
+    color:white;
+    display:flex; 
+    align-items:center;
+ 
+}
+
+.nav-logo
+{  
+    height: 50px; 
+    width:100px;  
+}
+
+.logo
+{
+    background-image: url("ama.jpg" );
+    background-size: cover;
+    height:50px;
+    width:100% ;
+} 
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:2px solid white;
+} 
+
+
+/* box 2 */
+
+
+.add1{
+color:#cccccc;
+font-size: 1rem;
+margin-left:15px;
+ border:2px solid transparent;
+}
+
+.add2{
+    color:#ffffff;
+    font-size: 1 rem;
+    margin-left:3px;
+
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+     border: 2px solid transparent;
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    padding:20px;
+    width:620px;
+    background-color: pink;
+}
+.options{
+    width:50px;
+
+}
+.search-icon{
+    background-color: rgb(225, 175, 25);
+}
+.nav-searchbox{
+    width:200px;
+}
